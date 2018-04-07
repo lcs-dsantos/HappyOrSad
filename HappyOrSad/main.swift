@@ -35,7 +35,7 @@ for individualCharacter in input {
     //print(individualCharacter)
     
     //is the character Happy, sad, or neither
-    if individualCharacter == "😀" {
+ if individualCharacter == "😃" {
         happyCount += 1
     } else if individualCharacter == "😁" {
             happyCount += 1
@@ -66,6 +66,10 @@ if sadCount > happyCount{
 // tell the mood of the message for Happy
 if happyCount > sadCount{
     print("happy")
+} else if happyCount == sadCount && sadCount != 0 {
+    print("unsure")
+} else if sadCount == 0 && happyCount == 0 {
 }
+
 
 
